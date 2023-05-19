@@ -17,7 +17,7 @@
         .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
-          img(src="img/hidraliso/1pao.png" style="width: 200px")
+          img(src="img/hidraliso/1pmaes.png" style="width: 200px")
 
         .row.align-items-center.justify-center.text-purple500
           .col-auto
@@ -48,7 +48,7 @@
         .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
-          img(src="img/hidraliso/2pao.png" style="width: 200px")
+          img(src="img/hidraliso/2pmaes.png" style="width: 200px")
 
         .row.align-items-center.justify-center.text-purple500
           .col-auto
@@ -79,7 +79,7 @@
         .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
-          img(src="img/hidraliso/3pao.png" style="width: 200px")
+          img(src="img/hidraliso/3pmaes.png" style="width: 200px")
 
         .row.align-items-center.justify-center.text-purple500
           .col-auto

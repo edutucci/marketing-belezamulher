@@ -30,13 +30,18 @@ const routes = [
   {
     path: '/hidraliso',
     name: '/hidraliso',
-    component: () => import('../views/HidralisoPage.vue'),
+    component: () => import('../views/HidralisoPagePromoArganOil.vue'),
   },
+  // {
+  //   path: '/hidralisomesmaeprices',
+  //   name: '/hidralisomesmaeprices',
+  //   component: () => import('../views/HidralisoChechout.vue'),
+  // },
   {
-    path: '/hidralisomesmaeprices',
-    name: '/hidralisomesmaeprices',
-    component: () => import('../views/HidralisoChechout.vue'),
-  },
+    path: '/hidralisoarganprices',
+    name: '/hidralisoarganprices',
+    component: () => import('../views/HidralisoChechoutArganOil.vue'),
+  }
   // {
   //   path: '/about',
   //   name: 'About',
