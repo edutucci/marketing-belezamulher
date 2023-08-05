@@ -331,11 +331,11 @@ h-page
 <script>
 
 import { reactive } from 'vue'
-import HidralisoChechoutArganOil from './HidralisoChechoutArganOil.vue'
+import HidralisoCheckoutArganOil from './HidralisoCheckoutArganOil.vue'
 
 export default {
   components:{
-    HidralisoChechoutArganOil
+    HidralisoCheckoutArganOil
   },
   setup () {
     const models = reactive({

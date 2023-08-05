@@ -7,17 +7,13 @@
       .h-mt-md.text-body2.text-center.text-bold.text-gray600 ESCOLHA sua oferta COM PRODUTOS GRÁTIS e receba EM CASA COM FRETE GRÁTIS.
 
   .row.wrap.justify-center
-    .col-auto.h-mt-md(style="width: 230px")
+    .col-auto.h-mt-md.h-pr-md(style="width: 260px")
       .border.border-radius.border-pink500.h-pa-md.text-center
-        .text-h5.text-purple500 PAGUE 1 FRASCO
-        .text-h6.text-purple500.h-mt-md LEVE GRÁTIS
-
-        .text-h6.text-center.text-purple500.h-mt-md 1 RECONSTRUHAIR
-
-        .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
+        .text-h4.text-purple500.text-bold 1 FRASCO
+        .text-h5.text-purple500.h-mt-md.text-bold + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
-          img(src="img/hidraliso/1pao.png" style="width: 200px")
+          img(src="img/hidraliso/1p.png" style="width: 200px")
 
         .row.align-items-center.justify-center.text-purple500
           .col-auto
@@ -37,18 +33,14 @@
 
         .text-h6.text-center.h-mt-md FRETE GRÁTIS
 
-    .col-auto.h-mt-md(style="width: 250px")
+    .col-auto.h-mt-md.h-pr-md(style="width: 260px")
       .border.border-radius.border-pink500.h-pa-md.text-center
-        .text-h5.text-purple500 PAGUE 2 FRASCOS
-        .text-h6.text-purple500.h-mt-md LEVE GRÁTIS
-
-        .text-h6.text-center.text-purple500.h-mt-md 1 HIDRALISO
-        .text-h6.text-center.text-purple500.h-mt-md + 1 RECONSTRUHAIR
-
-        .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
+        .text-h4.text-purple500.text-bold 3 FRASCOS
+        .text-h6.text-purple500.h-mt-md.text-bold COMPRE 2 LEVE 3
+        .text-h5.text-purple500.h-mt-md.text-bold + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
-          img(src="img/hidraliso/2pao.png" style="width: 200px")
+          img(src="img/hidraliso/2p.png" style="width: 200px")
 
         .row.align-items-center.justify-center.text-purple500
           .col-auto
@@ -63,23 +55,19 @@
               rounded
               text="COMPRAR AGORA" text-color="text-white"
               bg-color="bg-pink500"
-              @click="openUrl(models.kit2p)"
+              @click="openUrl(models.kit3p)"
             )
 
         .text-h6.text-center.h-mt-md FRETE GRÁTIS
 
-    .col-auto.h-mt-md(style="width: 250px")
+    .col-auto.h-mt-md.h-pr-md(style="width: 260px")
       .border.border-radius.border-pink500.h-pa-md.text-center
-        .text-h5.text-purple500 PAGUE 3 FRASCOS
-        .text-h6.text-purple500.h-mt-md LEVE GRÁTIS
-
-        .text-h6.text-center.text-purple500.h-mt-md 1 HIDRALISO
-        .text-h6.text-center.text-purple500.h-mt-md + 1 RECONSTRUHAIR
-
-        .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
+        .text-h4.text-purple500.text-bold 4 FRASCOS
+        .text-h6.text-purple500.h-mt-md.text-bold COMPRE 3 LEVE 4
+        .text-h5.text-purple500.h-mt-md.text-bold + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
-          img(src="img/hidraliso/3pao.png" style="width: 200px")
+          img(src="img/hidraliso/3p.png" style="width: 200px")
 
         .row.align-items-center.justify-center.text-purple500
           .col-auto
@@ -94,7 +82,7 @@
               rounded
               text="COMPRAR AGORA" text-color="text-white"
               bg-color="bg-pink500"
-              @click="openUrl(models.kit3p)"
+              @click="openUrl(models.kit4p)"
             )
 
         .text-h6.text-center.h-mt-md FRETE GRÁTIS
@@ -112,9 +100,9 @@ export default {
     }
 
     const models = {
-      kit1p: 'https://app.monetizze.com.br/r/BUS1665252?src=site',
-      kit2p: 'https://app.monetizze.com.br/r/BVD1665253?src=site',
-      kit3p: 'https://app.monetizze.com.br/r/BLF1665255?src=site'
+      kit1p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=FU73308&src=site',
+      kit3p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=NZ73309&src=site',
+      kit4p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=ZY73310&src=site'
     }
 
     return {
