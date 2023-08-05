@@ -100,9 +100,9 @@ export default {
     }
 
     const models = {
-      kit1p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=FU73308&src=site',
-      kit3p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=NZ73309&src=site',
-      kit4p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=ZY73310&src=site'
+      kit1p: 'https://app.monetizze.com.br/r/BKB1087327?src=site',
+      kit3p: 'https://app.monetizze.com.br/r/BVN1433424?src=site',
+      kit4p: 'https://app.monetizze.com.br/r/BEH1433426?src=site'
     }
 
     return {
