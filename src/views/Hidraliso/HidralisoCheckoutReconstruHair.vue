@@ -9,12 +9,12 @@
   .row.wrap.justify-center
     .col-auto.h-mt-md(style="width: 230px")
       .border.border-radius.border-pink500.h-pa-md.text-center
-        .text-h5.text-purple500 PAGUE 1 FRASCO
-        .text-h6.text-purple500.h-mt-md LEVE GRÁTIS
+        .text-h4.text-purple500.text-bold 1 FRASCO
+        .text-h5.text-purple500.text-bold LEVE GŔATIS
 
-        .text-h6.text-center.text-purple500.h-mt-md 1 RECONSTRUHAIR
+        .text-h6.text-center.text-purple500.h-mt-md.text-bold 1 RECONSTRUHAIR
 
-        .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
+        .text-h5.text-purple500.h-mt-md.text-bold + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
           img(src="img/hidraliso/1pmaes.png" style="width: 200px")
@@ -39,13 +39,13 @@
 
     .col-auto.h-mt-md(style="width: 250px")
       .border.border-radius.border-pink500.h-pa-md.text-center
-        .text-h5.text-purple500 PAGUE 2 FRASCOS
-        .text-h6.text-purple500.h-mt-md LEVE GRÁTIS
+        .text-h4.text-purple500.text-bold 2 FRASCOS
+        .text-h5.text-purple500.text-bold LEVE GŔATIS
 
-        .text-h6.text-center.text-purple500.h-mt-md 1 HIDRALISO
-        .text-h6.text-center.text-purple500.h-mt-md + 1 RECONSTRUHAIR
+        .text-h6.text-center.text-purple500.h-mt-md.text-bold 1 HIDRALISO
+        .text-h6.text-center.text-purple500.h-mt-md.text-bold + 1 RECONSTRUHAIR
 
-        .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
+        .text-h5.text-purple500.h-mt-md.text-bold + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
           img(src="img/hidraliso/2pmaes.png" style="width: 200px")
@@ -70,13 +70,13 @@
 
     .col-auto.h-mt-md(style="width: 250px")
       .border.border-radius.border-pink500.h-pa-md.text-center
-        .text-h5.text-purple500 PAGUE 3 FRASCOS
-        .text-h6.text-purple500.h-mt-md LEVE GRÁTIS
+        .text-h4.text-purple500.text-bold 3 FRASCOS
+        .text-h5.text-purple500.text-bold LEVE GŔATIS
 
-        .text-h6.text-center.text-purple500.h-mt-md 1 HIDRALISO
-        .text-h6.text-center.text-purple500.h-mt-md + 1 RECONSTRUHAIR
+        .text-h6.text-center.text-purple500.h-mt-md.text-bold 1 HIDRALISO
+        .text-h6.text-center.text-purple500.h-mt-md.text-bold + 1 RECONSTRUHAIR
 
-        .text-h6.text-purple500.h-mt-md + 3 EBOOKS EXCLUSIVOS
+        .text-h5.text-purple500.h-mt-md.text-bold + 3 EBOOKS EXCLUSIVOS
 
         .h-mt-md
           img(src="img/hidraliso/3pmaes.png" style="width: 200px")

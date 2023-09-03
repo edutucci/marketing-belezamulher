@@ -71,6 +71,15 @@ h-page
               .h-ml-sm.col.text-left.text-caption.text-bold
                 | Efeito de Longa Duração
 
+        .row.justify-center.h-mt-md
+          .col-auto
+            h-btn(
+              rounded
+              text="QUERO MEU CABELO LISO" text-color="text-white"
+              bg-color="bg-pink500"
+              @click="goToDiv('prices')"
+            )
+
   HidralisoPagePartOne(
     @onClickCheckout="onClickCheckout"
   )

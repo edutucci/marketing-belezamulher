@@ -23,6 +23,15 @@ h-page
       .col-auto
         img(:src="models.bgheadersm" style="max-width:1100px")
 
+    .row.justify-center.h-mt-md
+      .col-auto
+        h-btn(
+          rounded
+          text="QUERO MEU CABELO LISO" text-color="text-white"
+          bg-color="bg-pink500"
+          @click="goToDiv('prices')"
+        )
+
     .row
       .maxsize-title.col-auto.text-white.h-pa-lg
         .text-h5.text-center.text-bold Resultado de Salão em Casa! Fórmula Exclusiva Que Alisa e Hidrata Naturalmente os Fios em Minutos com 5X Mais Brilho.
@@ -331,7 +340,7 @@ h-page
 <script>
 
 import { reactive } from 'vue'
-import HidralisoChechoutReconstruHair from './HidralisoChechoutReconstruHair.vue'
+import HidralisoChechoutReconstruHair from './HidralisoCheckoutReconstruHair.vue'
 
 export default {
   components:{
@@ -340,7 +349,7 @@ export default {
   setup () {
     const models = reactive({
       path: document.location.origin,
-      bgheadersm: '/img/hidraliso/bg-header-maes.png',
+      bgheadersm: '/img/hidraliso/bg-header-reconstruhair.png',
       bgr1: {
         'background': 'url(/img/hidraliso/bg-reapeat1.png)'
       },

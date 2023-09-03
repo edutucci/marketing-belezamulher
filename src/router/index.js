@@ -2,46 +2,36 @@ import { createRouter, createWebHistory } from 'vue-router';
 // import Home from '../views/Home.vue';
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: '',
-  //   component: () => import('../views/HappyHair.vue'),
-  // },
-  // {
-  //   path: '/happyprices',
-  //   name: 'happyprices',
-  //   component: () => import('../views/HappyCheckout.vue'),
-  // },
   {
     path: '/',
     name: '/',
-    component: () => import('../views/HollyHair.vue'),
+    component: () => import('../views/Hidraliso/HidralisoPage.vue'),
   },
   {
     path: '/holly',
     name: '/holly',
-    component: () => import('../views/HollyHair.vue'),
+    component: () => import('../views/Holly/HollyHair.vue'),
   },
   {
     path: '/hollyprices',
     name: 'hollyprices',
-    component: () => import('../views/HollyCheckout.vue'),
+    component: () => import('../views/Holly/HollyCheckout.vue'),
   },
   {
     path: '/hidraliso',
     name: '/hidraliso',
-    component: () => import('../views/HidralisoPage.vue'),
+    component: () => import('../views/Hidraliso/HidralisoPageReconstruhair.vue'),
   },
   {
     path: '/hidralisoprices',
     name: '/hidralisoprices',
-    component: () => import('../views/HidralisoCheckout.vue'),
+    component: () => import('../views/Hidraliso/HidralisoCheckout.vue'),
   },
-  // {
-  //   path: '/hidralisomesmaeprices',
-  //   name: '/hidralisomesmaeprices',
-  //   component: () => import('../views/HidralisoChechout.vue'),
-  // },
+  {
+    path: '/rosamazonica',
+    name: '/rosamazonica',
+    component: () => import('../views/RAmazonica/RosaAmazonca.vue'),
+  },
   // {
   //   path: '/hidralisoarganprices',
   //   name: '/hidralisoarganprices',
