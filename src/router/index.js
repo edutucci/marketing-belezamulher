@@ -18,6 +18,11 @@ const routes = [
     component: () => import('../views/Holly/HollyCheckout.vue'),
   },
   {
+    path: '/sosla',
+    name: '/sosla',
+    component: () => import('../views/LizzAnte/LizzAntePage.vue'),
+  },
+  {
     path: '/hidraliso',
     name: '/hidraliso',
     component: () => import('../views/Hidraliso/HidralisoPageReconstruhair.vue'),
