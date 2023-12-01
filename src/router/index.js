@@ -23,6 +23,16 @@ const routes = [
     component: () => import('../views/LizzAnte/LizzAntePage.vue'),
   },
   {
+    path: '/soslaprices',
+    name: '/soslaprices',
+    component: () => import('../views/LizzAnte/LizzAnteCheckout.vue'),
+  },
+  {
+    path: '/soslapricesblack',
+    name: '/soslapricesblack',
+    component: () => import('../views/LizzAnte/LizzAnteCheckoutBlackFriday.vue'),
+  },
+  {
     path: '/hidraliso',
     name: '/hidraliso',
     component: () => import('../views/Hidraliso/HidralisoPageReconstruhair.vue'),

@@ -10,10 +10,10 @@ h-page
       )
         h-icon(icon="fab fa-whatsapp" text-color="text-white" size="32px")
 
-  .bg-red900.h-pa-lg
+  .bg-black.h-pa-lg
     .row.justify-center
       .col-auto
-        img(src="/img/lizzante/ofertanatallizzante2.png" style="width: 280px")
+        img(src="/img/lizzante/blackfridaylizzante.png" style="width: 275px")
     .row.justify-center.h-mt-xs
       .col-auto.text-center.text-h4.text-white
         <p style="margin: 5px">Descubra o<span style="color: #fff000;"> kit Nº 1 </span> mais potente em <span style="color: #fff000;">crescimento </span> e no combate a <span style="color: #fff000;">queda capilar!</span></p>						
@@ -211,7 +211,7 @@ h-page
         img(src="img/lizzante/especialistas.png" style="width:100%")
 
   div(ref="prices")
-    LizzAnteCheckout
+    LizzAnteCheckoutBlackFriday
 
   .h-pa-lg
     .row.wrap.justify-center.align-items-center
@@ -391,11 +391,11 @@ h-page
 <script>
 
 import { reactive, ref } from 'vue'
-import LizzAnteCheckout from './LizzAnteCheckout.vue'
+import LizzAnteCheckoutBlackFriday from './LizzAnteCheckoutBlackFriday.vue'
 
 export default {
   components:{
-    LizzAnteCheckout
+    LizzAnteCheckoutBlackFriday
   },
   setup () {
     const models = reactive({
