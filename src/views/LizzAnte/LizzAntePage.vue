@@ -13,7 +13,7 @@ h-page
   .bg-red900.h-pa-lg
     .row.justify-center
       .col-auto
-        img(src="/img/lizzante/ofertanatallizzante2.png" style="width: 280px")
+        img(src="/img/lizzante/ofertanatallizzante.png" style="width: 280px")
     .row.justify-center.h-mt-xs
       .col-auto.text-center.text-h4.text-white
         <p style="margin: 5px">Descubra o<span style="color: #fff000;"> kit Nº 1 </span> mais potente em <span style="color: #fff000;">crescimento </span> e no combate a <span style="color: #fff000;">queda capilar!</span></p>						

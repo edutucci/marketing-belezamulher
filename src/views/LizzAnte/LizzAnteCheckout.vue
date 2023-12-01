@@ -6,26 +6,30 @@
         <span style="color: #FFF000;">SEMPRE SONHOU!</span>		
 
   .row.wrap.justify-center
-    .col-auto.bg-white.h-mt-md.h-pr-md(style="width: 300px")
-      .border.border-radius.border-red900.h-pa-md.text-center
-        .text-h4.text-red900.text-bold 40% OFF
-        .text-h5.text-red900.h-mt-md.text-bold TRATAMENTO PARA 30 DIAS
+    .col-auto.bg-white.h-mt-md.h-pr-md.h-pb-md(style="width: 300px")
+      .border.border-radius.border-pink500.h-pa-md.text-center
+        .text-h4.text-red900.text-bold 55% OFF
+        .text-h5.text-red900.h-mt-md.text-bold TRATAMENTO PARA 90 DIAS
 
         .h-mt-md
-          img(src="img/lizzante/kit1.png" style="width: 280px")
+        img(src="img/lizzante/kit3.png" style="width: 280px")
 
         .row.align-items-center.justify-center.text-red900
           .col-auto
             | 12x
-          .col-auto.text-h4 R$17,97
+          .col-auto.text-h4 R$38,05
 
-        .text-h6.text-red900 (ou R$179 à vista)
+        .text-h6.text-red900 (ou R$379 à vista)
 
-        .text-h4.text-red900.text-bold.h-mt-md 3 PRODUTOS
-        hr
-        .text-gray.text-bold 01 unidade de Shampoo
-        .text-gray.text-bold 01 unidade de Máscara
-        .text-gray.text-bold 01 unidade de Tônico Capilar
+        .text-h4.text-red900.text-bold.h-mt-md 9 PRODUTOS
+        .text-h4.text-red900.text-bold + 2 BRINDES
+
+        hr.h-mt-sm
+        .text-gray.text-bold 03 unidades de Shampoo
+        .text-gray.text-bold 03 unidades de Máscara
+        .text-gray.text-bold 03 unidades de Tônico Capilar
+        .text-gray.text-bold +1 Tônico Capilar (brinde)
+        .text-gray.text-bold +1 Shampoo (brinde)
         hr
 
         .row.justify-center.h-mt-md
@@ -34,7 +38,7 @@
               rounded
               text="COMPRAR AGORA" text-color="text-white"
               bg-color="bg-pink700"
-              @click="openUrl(models.kit1)"
+              @click="openUrl(models.kit3)"
             )
 
         .text-h6.text-center.h-mt-md FRETE GRÁTIS
@@ -75,30 +79,26 @@
 
         .text-h6.text-center.h-mt-md FRETE GRÁTIS
 
-    .col-auto.bg-white.h-mt-md.h-pr-md.h-pb-md(style="width: 300px")
-      .border.border-radius.border-pink500.h-pa-md.text-center
-        .text-h4.text-red900.text-bold 55% OFF
-        .text-h5.text-red900.h-mt-md.text-bold TRATAMENTO PARA 90 DIAS
+    .col-auto.bg-white.h-mt-md.h-pr-md(style="width: 300px")
+      .border.border-radius.border-red900.h-pa-md.text-center
+        .text-h4.text-red900.text-bold 40% OFF
+        .text-h5.text-red900.h-mt-md.text-bold TRATAMENTO PARA 30 DIAS
 
         .h-mt-md
-        img(src="img/lizzante/kit3.png" style="width: 280px")
+          img(src="img/lizzante/kit1.png" style="width: 280px")
 
         .row.align-items-center.justify-center.text-red900
           .col-auto
             | 12x
-          .col-auto.text-h4 R$38,05
+          .col-auto.text-h4 R$17,97
 
-        .text-h6.text-red900 (ou R$379 à vista)
+        .text-h6.text-red900 (ou R$179 à vista)
 
-        .text-h4.text-red900.text-bold.h-mt-md 9 PRODUTOS
-        .text-h4.text-red900.text-bold + 2 BRINDES
-
-        hr.h-mt-sm
-        .text-gray.text-bold 03 unidades de Shampoo
-        .text-gray.text-bold 03 unidades de Máscara
-        .text-gray.text-bold 03 unidades de Tônico Capilar
-        .text-gray.text-bold +1 Tônico Capilar (brinde)
-        .text-gray.text-bold +1 Shampoo (brinde)
+        .text-h4.text-red900.text-bold.h-mt-md 3 PRODUTOS
+        hr
+        .text-gray.text-bold 01 unidade de Shampoo
+        .text-gray.text-bold 01 unidade de Máscara
+        .text-gray.text-bold 01 unidade de Tônico Capilar
         hr
 
         .row.justify-center.h-mt-md
@@ -107,7 +107,7 @@
               rounded
               text="COMPRAR AGORA" text-color="text-white"
               bg-color="bg-pink700"
-              @click="openUrl(models.kit3)"
+              @click="openUrl(models.kit1)"
             )
 
         .text-h6.text-center.h-mt-md FRETE GRÁTIS
