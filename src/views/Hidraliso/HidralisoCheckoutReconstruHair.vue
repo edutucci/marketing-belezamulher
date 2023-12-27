@@ -84,7 +84,7 @@
         .row.align-items-center.justify-center.text-purple500
           .col-auto
             | 12x
-          .col-auto.text-h4 R$27,80
+          .col-auto.text-h4 R$24,80
 
         .text-h6.text-purple500 (ou R$247 à vista)
 
@@ -112,9 +112,9 @@ export default {
     }
 
     const models = {
-      kit1p: 'https://app.monetizze.com.br/r/BUS1665252?src=site',
-      kit2p: 'https://app.monetizze.com.br/r/BVD1665253?src=site',
-      kit3p: 'https://app.monetizze.com.br/r/BLF1665255?src=site'
+      kit1p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=UK210310&src=site',
+      kit2p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=CS210311&src=site',
+      kit3p: 'https://app.monetizze.com.br/r/AKG11860451?u=c&pl=LJ210312&src=site'
     }
 
     return {

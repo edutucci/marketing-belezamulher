@@ -14,7 +14,7 @@ h-page
   .bg-pink500
     .row.justify-center
       .maxsize-title.col-auto.text-white.h-pa-lg 
-        .text-h6.text-center.text-bold Parabéns! Você GANHOU PRODUTOS GRÁTIS na escolha da sua oferta!
+        .text-h6.text-center.text-bold Parabéns! Escolha sua oferta e receba GRÁTIS um Reconstruhair!
 
         .h-mt-md.text-h6.text-center PROMOÇÃO VÁLIDA ENQUANTO DURAR O ESTOQUE!
 
@@ -349,7 +349,7 @@ export default {
   setup () {
     const models = reactive({
       path: document.location.origin,
-      bgheadersm: '/img/hidraliso/bg-header-reconstruhair.png',
+      bgheadersm: '/img/hidraliso/bg-header-reconstruhair-brinde.png',
       bgr1: {
         'background': 'url(/img/hidraliso/bg-reapeat1.png)'
       },
