@@ -9,5 +9,6 @@ jobs:
     # name: Deploy to EC2
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      -name: Checkout the files
+      uses: actions/checkout@v3
 
